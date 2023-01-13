@@ -1,0 +1,32 @@
+{
+  "workshoptitle": "Turbocharge Business Insights with MySQL HeatWave",
+    "help": "livelabs-help-oci_us@oracle.com",
+    "tutorials": [
+
+        {
+          "title": "Lab 1: Create Compartment and Virtual Cloud Network",
+          "filename": "../../create-compartment-vcn/create-compartment-vcn.md"
+        },
+
+        {
+          "title": "Lab 2: Create HeatWave Standalone DB system",
+          "filename": "../../create-dbs-standard/create-dbs-standard.md"
+        },
+
+        {
+          "title": "Lab 3: Manage HeatWave Standalone System",
+          "filename": "../../access-mds-sa/access-mds-sa.md"
+        },
+
+        {
+          "title": "Lab 4: Develop MySQL HeatWave Apps with Oracle APEX",
+          "filename": "../../apex-heatwave/apex-heatwave.md"
+        }, 
+        
+        {
+            "title": "Need Help?",
+            "description": "Solutions to Common Problems and Directions for Receiving Live Help",
+            "filename":"https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/need-help/need-help-freetier.md"
+        }
+    ]
+}
