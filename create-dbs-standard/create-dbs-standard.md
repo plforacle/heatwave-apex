@@ -88,7 +88,16 @@ In this Task, you will create and configure a MySQL Standalone DB System.
 
     ![MDS](./images/04mysql08.png" ")
 
-    Click the **Create button**
+10. Click on Show Advanced Options
+
+11. Go to the Networking tab, in the Hostname field enter (same as DB System Name):
+
+	```
+	<copy>heatwave-sa</copy> 
+	```
+
+
+12.   Click the **Create button**
     ![MDS](./images/04mysql09-1.png" ")
 
 10. The New MySQL DB System will be ready to use after a few minutes.

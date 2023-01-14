@@ -20,12 +20,20 @@ _Estimated Lab Time:_ 30 minutes
 
 In this lab, you will be guided through the following tasks:
 
-- Setup  Vault
-- Setup Secret
-- Create private endpoint
-- Create Connection
+1. Setup  Vault
+![MDS](./images/createvault.png "create vault")
+![MDS](./images/vault_key.png "create vault key")
+2. Setup Secret
+![MDS](./images/secret.png "create secret")
+3. Create private endpoint
+![MDS](./images/endpoint.png "create endpoint")
+4. Create Connection
+![MDS](./images/mysql_connect.png "create connect")
+![MDS](./images/complete_mysql_connect.png "complete mysql connectt")
+![MDS](./images/oci_connect_mysql.png "oci connect mysql")
+![MDS](./images/run_mysql_in_oci.png "run mysql in oci")
 
-1. USe Database Tools SQL Worksheet
+5. USe Database Tools SQL Worksheet
 
    a. To display a list of databases, Enter the following command at the prompt:
     ````
@@ -88,8 +96,6 @@ In this lab, you will be guided through the following tasks:
       ````
       <copy>SELECT country_id, country from country WHERE country = 'Afghanistan' OR 'Bangladesh' OR 'China';</copy>
       ```` 
-
-
 
 ## Acknowledgements
 
